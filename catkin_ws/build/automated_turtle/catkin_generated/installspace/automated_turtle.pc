@@ -1,0 +1,8 @@
+prefix=/home/daniel/ros/catkin_ws/install
+
+Name: automated_turtle
+Description: Description of automated_turtle
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

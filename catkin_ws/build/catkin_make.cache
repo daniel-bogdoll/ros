@@ -1,2 +1,2 @@
-ros_basics_tutorials:ros_essentials_cpp
+automated_turtle:ros_basics_tutorials:ros_essentials_cpp
 -DCATKIN_DEVEL_PREFIX=/home/daniel/ros/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/daniel/ros/catkin_ws/install -G Unix Makefiles
