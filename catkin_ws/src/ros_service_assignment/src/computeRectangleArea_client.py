@@ -11,20 +11,20 @@ def compute_area_client(width, height):
     try:
         compute_area = rospy.ServiceProxy('compute_area', RectangleAreaService)
         resp1 = compute_area(width, height)
-        return resp1.sum
+        return resp1.area
     except rospy.ServiceException, e:
-        print "Service call failed: %s"%e
+        print("Service call failed: %s"%e)
 
 def usage():
-    return "%s [x y]"%sys.argv[0]
+    return "%s [width height]"%sys.argv[0]
 
 if __name__ == "__main__":
     if len(sys.argv) == 3:
         width = int(sys.argv[1])
         height = int(sys.argv[2])
     else:
-        print usage()
+        print(usage())
         sys.exit(1)
-    print "Requesting %s+%s"%(width, height)
+    print("Requesting %s*%s"%(width, height))
     s = compute_area_client(width, height)
-    print "%s + %s = %s"%(width, height, s)
+    print("%s * %s = %s"%(width, height, s))

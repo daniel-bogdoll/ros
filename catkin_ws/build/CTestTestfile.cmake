@@ -5,7 +5,4 @@
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
-subdirs("automated_turtle")
-subdirs("ros_basics_tutorials")
-subdirs("ros_essentials_cpp")
 subdirs("ros_service_assignment")
