@@ -56,3 +56,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/automated_turtle" TYPE PROGRAM FILES "/home/daniel/ros/catkin_ws/build/automated_turtle/catkin_generated/installspace/robot_move_topics.py")
 endif()
 
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/automated_turtle" TYPE PROGRAM FILES "/home/daniel/ros/catkin_ws/build/automated_turtle/catkin_generated/installspace/robot_move_topics.py")
+endif()
+

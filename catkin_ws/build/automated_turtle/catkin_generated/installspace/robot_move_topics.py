@@ -1,4 +1,6 @@
 import rospy
+import random
+
 from geometry_msgs.msg import Twist
 
 #subscriber for the topic that will show location of robot
@@ -14,11 +16,11 @@ def move():
     rate = rospy.Rate(1)
     while not rospy.is_shutdown():
         twist = Twist()
-        twist.linear.x = 1.0
-        twist.angular.z = 1.0
+        twist.linear.x = random.randint(-10,10)
+        twist.angular.z = random.randint(-10,10)
 
         rospy.loginfo(twist)
-        pub.publish(twist)
+        speed_publisher.publish(twist)
         rate.sleep()
 
 def callback(data):

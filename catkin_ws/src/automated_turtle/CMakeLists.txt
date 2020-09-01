@@ -207,3 +207,7 @@ include_directories(
 catkin_install_python(PROGRAMS src/robot_move_topics.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
+
+catkin_install_python(PROGRAMS src/robot_move_topics.py
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)

@@ -177,7 +177,7 @@ foreach(library ${libraries})
   endif()
 endforeach()
 
-set(ros_basics_tutorials_EXPORTED_TARGETS "")
+set(ros_basics_tutorials_EXPORTED_TARGETS "ros_basics_tutorials_generate_messages_cpp;ros_basics_tutorials_generate_messages_eus;ros_basics_tutorials_generate_messages_lisp;ros_basics_tutorials_generate_messages_nodejs;ros_basics_tutorials_generate_messages_py")
 # create dummy targets for exported code generation targets to make life of users easier
 foreach(t ${ros_basics_tutorials_EXPORTED_TARGETS})
   if(NOT TARGET ${t})
@@ -214,7 +214,7 @@ foreach(depend ${depends})
   list(APPEND ros_basics_tutorials_EXPORTED_TARGETS ${${ros_basics_tutorials_dep}_EXPORTED_TARGETS})
 endforeach()
 
-set(pkg_cfg_extras "")
+set(pkg_cfg_extras "ros_basics_tutorials-msg-extras.cmake")
 foreach(extra ${pkg_cfg_extras})
   if(NOT IS_ABSOLUTE ${extra})
     set(extra ${ros_basics_tutorials_DIR}/${extra})
