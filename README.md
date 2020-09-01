@@ -10,7 +10,7 @@ based on [Ubuntu 20.04 LTS](https://releases.ubuntu.com/20.04/) with [ROS Noetic
 - [XServer for Windows for graphical output](https://janbernloehr.de/2017/06/10/ros-windows)
 - [VcSrv with WSL 2 (Worked for me without the firewall settings)](https://github.com/microsoft/WSL/issues/4106#issuecomment-658879517)
 
-[ROS Communication Patterns]:(http://wiki.ros.org/ROS/Patterns/Communication)
+[ROS Communication Patterns](http://wiki.ros.org/ROS/Patterns/Communication):
 - Topics (Publish/Subscribe) - continuous data streams
 - Services - blocking call
 - Actions - non-blocking background processing
