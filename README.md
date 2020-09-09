@@ -5,8 +5,12 @@ This repository covers my participation in the Udemy courses
 
 They are held by [Prof. Koubaa](https://www.psu.edu.sa/faculty-details/335) and build upon his [CS460 Introduction to Robotics](https://www.psu.edu.sa/CCIS/cs-cd) course at [PSU Prince Sultan University, Center of Excellence Robotics and Internet-of-Things Lab (RIOTU)](https://www.riotu-lab.org/)
 
+The courses cover
+- ROS Fundamentals
+- Turtlesim and Turtlebot with RViz and Gazebo
+- WIP
 
-My implementation is based on [Ubuntu 20.04 LTS](https://releases.ubuntu.com/20.04/) with [ROS Noetic](http://wiki.ros.org/noetic/Installation/Ubuntu). Tricks for Windows 10 WSL:
+My implementation is based on [Ubuntu 20.04 LTS](https://releases.ubuntu.com/20.04/) with [ROS Noetic](http://wiki.ros.org/noetic/Installation/Ubuntu) under Windows 10 WSL. Supporting material:
 - [Run .py files](https://answers.ros.org/question/10412/no-such-file-or-directory-when-using-rosrun/)
 - [Access Windows files](https://www.howtogeek.com/261383/how-to-access-your-ubuntu-bash-files-in-windows-and-your-windows-system-drive-in-bash/)
 - [XServer for Windows for graphical output](https://janbernloehr.de/2017/06/10/ros-windows)
