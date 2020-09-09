@@ -1,2 +1,2 @@
-automated_turtle:ros_basics_tutorials:ros_essentials_cpp:ros_service_assignment
+automated_turtle:ros_basics_tutorials:ros_essentials_cpp:ros_service_assignment:turtlesim_cleaner
 -DCATKIN_DEVEL_PREFIX=/home/daniel/ros/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/daniel/ros/catkin_ws/install -G Unix Makefiles

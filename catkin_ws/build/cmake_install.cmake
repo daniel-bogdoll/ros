@@ -131,7 +131,11 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/daniel/ros/catkin_ws/build/gtest/cmake_install.cmake")
+  include("/home/daniel/ros/catkin_ws/build/automated_turtle/cmake_install.cmake")
+  include("/home/daniel/ros/catkin_ws/build/ros_basics_tutorials/cmake_install.cmake")
+  include("/home/daniel/ros/catkin_ws/build/ros_essentials_cpp/cmake_install.cmake")
   include("/home/daniel/ros/catkin_ws/build/ros_service_assignment/cmake_install.cmake")
+  include("/home/daniel/ros/catkin_ws/build/turtlesim_cleaner/cmake_install.cmake")
 
 endif()
 
