@@ -8,7 +8,7 @@ They are held by [Prof. Koubaa](https://www.psu.edu.sa/faculty-details/335) and 
 The courses cover
 - ROS Essentials with TurtleSim
 - TurtleBot with RViz
-- OpenCV
+- OpenCV with CvBridge
 
 My implementation is based on [Ubuntu 20.04 LTS](https://releases.ubuntu.com/20.04/) with [ROS Noetic](http://wiki.ros.org/noetic/Installation/Ubuntu) under Windows 10 WSL. Supporting material:
 - [Run .py files](https://answers.ros.org/question/10412/no-such-file-or-directory-when-using-rosrun/)
