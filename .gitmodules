@@ -2,3 +2,9 @@
 	path = catkin_ws/src/ros_essentials_cpp
 	url = https://github.com/aniskoubaa/ros_essentials_cpp.git
 	branch = ros-noetic
+[submodule "catkin_ws_2/src/ros_course_part2"]
+	path = catkin_ws_2/src/ros_course_part2
+	url = https://github.com/aniskoubaa/ros_course_part2
+[submodule "catkin_ws_2/src/turtlebot3_simulations"]
+	path = catkin_ws_2/src/turtlebot3_simulations
+	url = https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
