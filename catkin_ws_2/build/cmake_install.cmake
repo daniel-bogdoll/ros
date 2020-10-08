@@ -132,6 +132,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/daniel/ros/catkin_ws_2/build/gtest/cmake_install.cmake")
   include("/home/daniel/ros/catkin_ws_2/build/turtlebot3_simulations/turtlebot3_simulations/cmake_install.cmake")
+  include("/home/daniel/ros/catkin_ws_2/build/ros_course_part2/cmake_install.cmake")
   include("/home/daniel/ros/catkin_ws_2/build/turtlebot3_simulations/turtlebot3_fake/cmake_install.cmake")
   include("/home/daniel/ros/catkin_ws_2/build/turtlebot3_simulations/turtlebot3_gazebo/cmake_install.cmake")
 
