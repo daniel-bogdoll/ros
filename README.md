@@ -9,6 +9,7 @@ The courses cover
 - ROS Essentials with TurtleSim
 - TurtleBot with RViz
 - OpenCV with CvBridge
+- Gazebo Simulation Environment
 
 My implementation is based on [Ubuntu 20.04 LTS](https://releases.ubuntu.com/20.04/) with [ROS Noetic](http://wiki.ros.org/noetic/Installation/Ubuntu) under Windows 10 WSL for the first course. For the second course I used [Ubuntu 18.04 LTS](https://releases.ubuntu.com/18.04.5/) with [ROS Melodic](http://wiki.ros.org/melodic) and the [Turtlebot3 simulator](https://github.com/ROBOTIS-GIT/turtlebot3).
 
