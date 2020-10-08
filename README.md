@@ -1,7 +1,7 @@
 # Robot Operating System ROS
 This repository covers my participation in the Udemy courses
 - [ROS Fundamentals](https://www.udemy.com/course/ros-essentials/) (2020) :white_check_mark:
-- [ROS Navigation](https://www.udemy.com/course/ros-navigation/) :hourglass:
+- [ROS Navigation](https://www.udemy.com/course/ros-navigation/) (2020) :white_check_mark:
 
 They are held by [Prof. Koubaa](https://www.psu.edu.sa/faculty-details/335) and build upon his [CS460 Introduction to Robotics](https://www.psu.edu.sa/CCIS/cs-cd) course at [PSU Prince Sultan University, Center of Excellence Robotics and Internet-of-Things Lab (RIOTU)](https://www.riotu-lab.org/)
 
@@ -29,3 +29,4 @@ Supporting material:
 - Actions - non-blocking background processing
 
 ![ROS Certificate I](ros_1.jpg)
+![ROS Certificate II](ros_2.jpg)
